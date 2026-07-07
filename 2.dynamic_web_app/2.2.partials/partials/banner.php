@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        /* body{
-            display: grid;
-            place-items:center;
-            height:100vh;
-            margin:0;
-            font-family:sans-serif
-        } */
-    </style>
-</head>
-<body>
-
-
-    
-   <header class="bg-white dark:bg-gray-900">
+<header class="bg-white dark:bg-gray-900">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
     <div class="flex h-16 items-center justify-between">
       <div class="md:flex md:items-center md:gap-12">
@@ -41,63 +20,7 @@
       </div>
 
       <div class="hidden md:block">
-        <nav aria-label="Global">
-          <ul class="flex items-center gap-6 text-sm">
-           <li>
-              <a
-                class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                href="/websites/demo/2.dynamic_web_app/about.php"
-              >
-                About
-              </a>
-            </li>
-
-            <li>
-              <a
-                class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                href="/websites/demo/2.dynamic_web_app/contact.php"
-              >
-                Careers
-              </a>
-            </li>
-
-            <li>
-              <a
-                class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                href="#"
-              >
-                History
-              </a>
-            </li>
-
-            <li>
-              <a
-                class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                href="#"
-              >
-                Services
-              </a>
-            </li>
-
-            <li>
-              <a
-                class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                href="#"
-              >
-                Projects
-              </a>
-            </li>
-
-            <li>
-              <a
-                class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                href="#"
-              >
-                Blog
-              </a>
-            </li>
-          </ul>
-        </nav>
+         <?php  require("partials/nav.php") ?>
       </div>
 
       <div class="flex items-center gap-4">
@@ -146,11 +69,3 @@
     </div>
   </div>
 </header>
-<h1>Contact</h1>
-     
-      
-    
-      
-</body>
-</html>
-
