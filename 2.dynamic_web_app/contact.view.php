@@ -24,7 +24,7 @@
     <div class="flex h-16 items-center justify-between">
       <div class="md:flex md:items-center md:gap-12">
         <a class="block text-teal-600 dark:text-teal-600" href="#">
-          <span class="sr-only">Home</span>
+          <span class="sr-only">Hom e</span>
           <svg
             class="h-8"
             viewBox="0 0 28 24"
