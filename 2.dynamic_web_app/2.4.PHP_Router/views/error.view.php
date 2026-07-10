@@ -9,7 +9,7 @@
         <h1 class="text-3xl font-bold tracking-tight text-gray-900">Sorry Page not FOund</h1>
 
         <p class="mt-4">
-           <a  href=<?=$basic_url;  ?> class="text-blue underline">GO back home</a>
+           <a  href=<?=basic_url;  ?> class="text-blue underline">GO back home</a>
         </p>
    </div>
 </main>

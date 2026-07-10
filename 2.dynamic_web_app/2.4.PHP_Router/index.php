@@ -1,35 +1,7 @@
  <?php  
 define('basic_url', '/websites/demo/2.dynamic_web_app/2.4.PHP_Router/');
 require __DIR__ . "/utils.php";
-
-$uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-$routes = [
-    '/websites/demo/2.dynamic_web_app/2.4.PHP_Router/' => 'controllers/index.php',
-    '/websites/demo/2.dynamic_web_app/2.4.PHP_Router/about' => 'controllers/about.php',
-    '/websites/demo/2.dynamic_web_app/2.4.PHP_Router/contact' => 'controllers/contact.php'
-];
-
-
-function abort(){
-    http_response_code(404);
-    echo "$__DIR__";
-    require "views/error.view.php";
-    die();
-}
-
-
-
-function routeToController($uri,$routes){
-   // Check if the current URI exists in our routes
-   if (array_key_exists($uri, $routes)) {
-      require $routes[$uri];
-   } else {
-      // Optional: Simple 404 handling if route isn't found
-      abort();
-   }
-}
-
-routeToController($uri,$routes);
+require "router.php";
       
 ?>
 
