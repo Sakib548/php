@@ -1,9 +1,9 @@
 <?php
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $routes = [
-    '/websites/demo/2.dynamic_web_app/2.5.MySql/' => 'controllers/index.php',
-    '/websites/demo/2.dynamic_web_app/2.5.MySql/about' => 'controllers/about.php',
-    '/websites/demo/2.dynamic_web_app/2.5.MySql/contact' => 'controllers/contact.php'
+    '/websites/demo/2.dynamic_web_app/2.5-2.9.MySql/' => 'controllers/index.php',
+    '/websites/demo/2.dynamic_web_app/2.5-2.9.MySql/about' => 'controllers/about.php',
+    '/websites/demo/2.dynamic_web_app/2.5-2.9.MySql/contact' => 'controllers/contact.php'
 ];
 
 
